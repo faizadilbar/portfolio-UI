@@ -1,0 +1,33 @@
+name: containertask
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4 # Ensure this matches your Dart version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8 # For Cupertino icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 # For linting and code analysis
+
+flutter:
+  uses-material-design: true # Enable Material Icons
+
+  assets:
+    - assets/images/view3.jpg # Add your image assets here
+    # - assets/images/another_image.png # Add more assets if needed
+
+  fonts:
+    - family: DancingScript # Add custom fonts here
+      fonts:
+        - asset: fonts/DancingScript-VariableFont_wght.ttf
+    # - family: AnotherFont
+    #   fonts:
+    #     - asset: fonts/AnotherFont.ttf
